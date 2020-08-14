@@ -1,4 +1,4 @@
-const API_KEY = "[API_KEY_HERE]";
+const API_KEY = "[TMDB_API_KEY_HERE]";
 
 const requests = {
     fetchTrending: `trending/tv/week?api_key=${API_KEY}&language=en-US`,

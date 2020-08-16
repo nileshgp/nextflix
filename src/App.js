@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import Row from './Row/Row';
 import requests from './requests';
+import Banner from './Banner/Banner';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* Nav */}
-      {/* Banner */}
+      <Banner />
       <Row
       title="Trending Now"
       fetchUrl={requests.fetchTrending}
